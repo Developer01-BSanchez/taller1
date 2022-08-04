@@ -125,7 +125,7 @@ switch(opcion){
     break;
     case 'divición':
         divición=parseInt(num1)/parseInt(num2);
-        alert(`el resltado de la divición es: ${divición.toFixed(2)}`);
+        alert(`el resltado de la divición es: ${divición.toFixed(2)}`); //el .toFixed() se utiliza para limitar las cifras decimales
     break;
     case 'potenciación':
         potenciación=Math.pow(num1,num2); //la funcion Math.pow(base,exponente) es para realizar potencias
@@ -142,8 +142,6 @@ switch(opcion){
 }
 
 
-
-//3er ejercicio
 
 
 
