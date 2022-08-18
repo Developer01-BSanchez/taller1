@@ -53,7 +53,6 @@ let orden=aprendices.sort(); //arreglo que ordena los datos ingresados alfanumer
 alert(orden)*/
 
 /** Arrays de objetos con propiedades, valores */
-
 let aprendices=[
     {primernombre:"Brandon",primerapellido:"Sanchez"},
     {primernombre:"Yeimer",primerapellido:"Sanchez"}
@@ -62,3 +61,4 @@ let nombrecompleto=aprendices.map(function(elemento,index,array) {
     return `${elemento.primernombre} ${elemento.primerapellido}`
 }
 )
+alert(`${nombrecompleto}`);
