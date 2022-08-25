@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Ejercicio 7</title>
 </head>
 <body>
     <form class="group-form">
@@ -12,10 +12,13 @@
             <label for="num1" class="form-label">Ingresa un numero</label>
             <input type="number" class="form-control" id="num1">
         </div>
+        <br>
         <div class="group-form">
             <label for="num2" class="form-label">Ingresa otro numero</label>
             <input type="number" class="form-control" id="num2">
         </div>
+        <br>
+        <!--
         <div class="group-form">
             <label>Seleccione una operación</label>
             <select class="form-select" id="operacion">
@@ -25,8 +28,17 @@
                 <option value="4">División</option>
             </select>
         </div>
-        <button type="submit" class="btn-azul" value="calcular" onclick="calcular()">Calcular</button>
+        <hr>
+        <button type="submit" id="button" class="btn-azul">Calcular</button>
+        -->
     </form>
-    <script src="js/calculadora.js"></script>
+    <div id="ops">
+        <button id="suma">suma</button>
+        <button id="resta">resta</button>
+    </div>
+    <div id="respuesta">
+        
+    </div>
+    <script src="js/script7.js"></script>
 </body>
 </html>
