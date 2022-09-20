@@ -82,6 +82,9 @@ label{
 .success .msn-error{
     color: green;
 }
+.success .frm-icon{
+    color: green;
+}
 .error .msn-error{
     color:red;
 }
